@@ -68,6 +68,26 @@
               <label>Message</label>
                    <textarea name="message"></textarea> 
              </div>
+              <br>
+                <div>
+     <label>Gender</label>
+      <select name="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other"</option>
+                  </select>
+             </div>
+       <div>
+              <label>Age</label>
+      <input type="number" name="age" value="30">
+             </div>
+              <br>
+            <div>
+              <label>Brithday:</label>
+      <input type="date" name="birthday" 
+             </div>
+              <br>
              </form>
+              <div style="margin-top:500px"></div>
     </body>
       </html>
